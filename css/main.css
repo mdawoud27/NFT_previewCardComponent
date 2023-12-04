@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    min-height: 90vh;
+    min-height: 8cm;
     display: grid;
     place-content: center;
 }
