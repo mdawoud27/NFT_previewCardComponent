@@ -11,6 +11,7 @@ body {
     font-family: "Outfit", "Open Sans";
     font-size: 18px;
     background-color: hsl(217, 54%, 11%);
+    max-height: 100vh;
 }
 
 .container {
