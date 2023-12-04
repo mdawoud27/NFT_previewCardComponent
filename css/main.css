@@ -19,16 +19,8 @@ body {
     place-content: center;
 }
 
-@media (min-width: 768px) {
-    .container {
-        min-height: 30vh;
-    }
-    
-}
-
 .card {
     background-color: hsl(216, 50%, 16%);
-    margin-top: 0.5rem;
     padding: 1.5rem;
     padding-bottom: 1rem;
     display: flex;
@@ -36,6 +28,16 @@ body {
     justify-content: space-between;
     max-width: 22rem;
     box-shadow: 1px 19px 5rem 0rem rgb(0 0 0 / 75%);
+}
+
+@media (min-width: 768px) {
+    .container {
+        min-height: 30vh;
+    }
+
+    .card {
+        margin-top: 0.5rem;
+    }
 }
 
 .imges {
