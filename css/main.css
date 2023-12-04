@@ -11,11 +11,10 @@ body {
     font-family: "Outfit", "Open Sans";
     font-size: 18px;
     background-color: hsl(217, 54%, 11%);
-    max-height: 90vh;
 }
 
 .container {
-    min-height: 92vh;
+    min-height: 90vh;
     display: grid;
     place-content: center;
 }
@@ -39,7 +38,7 @@ body {
 
 @media (max-width: 768px) {
     .card {
-        margin-top: -2rem;
+        margin-top: 0.5rem;
     }
 }
 
