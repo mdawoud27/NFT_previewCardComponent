@@ -11,7 +11,7 @@ body {
     font-family: "Outfit", "Open Sans";
     font-size: 18px;
     background-color: hsl(217, 54%, 11%);
-    max-height: 100vh;
+    max-height: 90vh;
 }
 
 .container {
@@ -39,7 +39,7 @@ body {
 
 @media (max-width: 768px) {
     .card {
-        margin-top: -0.5rem;
+        /* margin-top: -0.5rem; */
         margin-bottom: -1rem;
     }
 }
