@@ -171,7 +171,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 1rem;
+    padding: 1rem;
     font-size: 0.7rem;
     color: hsl(0, 0%, 100%);
 }
@@ -179,5 +179,4 @@ hr {
 .footer a {
     color: hsl(178, 100%, 50%);
     text-decoration: none;
-    transition: all 0.3s ease;
 }
