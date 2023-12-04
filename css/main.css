@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    min-height: 100vh;
+    min-height: 92vh;
     display: grid;
     place-content: center;
 }
@@ -146,4 +146,25 @@ hr {
 .p-info span:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        max-width: 20rem;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+    font-size: 0.7rem;
+    color: hsl(0, 0%, 100%);;
+}
+
+.footer a {
+    color: hsl(178, 100%, 50%);
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
