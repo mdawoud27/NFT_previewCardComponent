@@ -40,7 +40,7 @@ body {
 @media (max-width: 768px) {
     .card {
         /* margin-top: -0.5rem; */
-        margin-top: -1rem;
+        margin-top: -1.5rem;
     }
 }
 
@@ -173,7 +173,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 0.4rem 0 0.3rem 0;
     font-size: 0.7rem;
     color: hsl(0, 0%, 100%);
 }
